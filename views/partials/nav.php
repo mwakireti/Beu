@@ -1,4 +1,7 @@
+<?php
 
+
+?>
     <!-- Navbar Start -->
     <div class="container-fluid sticky-top">
         <div class="container">
@@ -12,10 +15,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
-                        <a href="/" class="nav-item nav-link <?= $_SERVER['REQUEST_URI'] === '/' ? ' active' :'';?>">Home</a>
-                        <a href="/about.php" class="nav-item nav-link <?= $_SERVER['REQUEST_URI'] === '/about.php' ? ' active' :'';?>">About</a>
-                        <a href="/services.php" class="nav-item nav-link <?= $_SERVER['REQUEST_URI'] === '/services.php' ? ' active' :'';?>">Services</a>
-                        <a href="/products.php" class="nav-item nav-link  <?= $_SERVER['REQUEST_URI'] === '/products.php' ? ' active' :'';?>">Products</a>
+                        <a href="/" class="nav-item nav-link <?php urlIs('/')?>">Home</a>
+                        <a href="/about" class="nav-item nav-link <?php urlIs('/about')?>">About</a>
+                        <a href="/services" class="nav-item nav-link <?php urlIs('/services')?>">Services</a>
+                        <a href="/products" class="nav-item nav-link  <?php urlIs('/products')?>">Products</a>
                         <!-- <div class="nav-item dropdown">
                             <a href="#!" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu bg-light mt-2">
@@ -25,7 +28,7 @@
                                 <a href="404.html" class="dropdown-item">404 Page</a>
                             </div>
                         </div> -->
-                        <a href="/contact.php" class="nav-item nav-link <?= $_SERVER['REQUEST_URI'] === '/contact.php' ? ' active' :'';?>">Contact</a>
+                        <a href="/contact" class="nav-item nav-link <?php urlIs('/contact')?>">Contact</a>
                     </div>
                 </div>
             </nav>

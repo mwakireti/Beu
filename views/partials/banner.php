@@ -8,8 +8,8 @@
                 <div class="col-lg-6 animated slideInRight">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center justify-content-lg-end mb-0">
-                            <li class="breadcrumb-item"><a class="text-primary" href="#!">Home</a></li>
-                            <li class="breadcrumb-item"><a class="text-primary" href="#!">Pages</a></li>
+                            <li class="breadcrumb-item"><a class="text-primary" href="/">Home</a></li>
+                            <!-- <li class="breadcrumb-item"><a class="text-primary" href="#!">Pages</a></li> -->
                             <li class="breadcrumb-item text-secondary active" aria-current="page"><?= $heading ?></li>
                         </ol>
                     </nav>
