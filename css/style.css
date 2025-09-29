@@ -1,5 +1,8 @@
 /********** Template CSS **********/
-
+html {
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
 /*** Spinner ***/
 #spinner {
     opacity: 0;

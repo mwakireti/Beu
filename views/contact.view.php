@@ -57,6 +57,5 @@
         </div>
     </div>
     <!-- Contact End -->
-
 <?php require 'partials/newsletter.php'; ?>
 <?php require 'partials/footer.php'; ?>
