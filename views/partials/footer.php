@@ -87,6 +87,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/forms.js"></script>
 </body>
 
 </html>
