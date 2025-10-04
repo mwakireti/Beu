@@ -1,8 +1,4 @@
-<?php
-
-
-?>
-    <!-- Navbar Start -->
+<!-- Navbar Start -->
     <div class="container-fluid sticky-top">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light border-bottom border-2 border-white">
