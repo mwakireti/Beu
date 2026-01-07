@@ -12,9 +12,9 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
                         <a href="/" class="nav-item nav-link <?php urlIs('/')?>">Home</a>
-                        <a href="/about" class="nav-item nav-link <?php urlIs('/about')?>">About</a>
-                        <a href="/services" class="nav-item nav-link <?php urlIs('/services')?>">Services</a>
-                        <a href="/products" class="nav-item nav-link  <?php urlIs('/products')?>">Products</a>
+                        <a href="/about" class="nav-item nav-link <?php urlIs('/about.php')?>">About</a>
+                        <a href="/services" class="nav-item nav-link <?php urlIs('/services.php')?>">Services</a>
+                        <a href="/products" class="nav-item nav-link  <?php urlIs('/products.php')?>">Products</a>
                         <!-- <div class="nav-item dropdown">
                             <a href="#!" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu bg-light mt-2">
@@ -24,7 +24,7 @@
                                 <a href="404.html" class="dropdown-item">404 Page</a>
                             </div>
                         </div> -->
-                        <a href="/contact" class="nav-item nav-link <?php urlIs('/contact')?>">Contact</a>
+                        <a href="/contact" class="nav-item nav-link <?php urlIs('/contact.php')?>">Contact</a>
                     </div>
                 </div>
             </nav>
